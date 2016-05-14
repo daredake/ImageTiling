@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E98F5111CE69CD000792C07 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98F50F1CE69CD000792C07 /* MainWindowController.swift */; };
+		9E98F5121CE69CD000792C07 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E98F5101CE69CD000792C07 /* MainWindowController.xib */; };
+		9E98F5141CE69D8800792C07 /* TiledImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98F5131CE69D8800792C07 /* TiledImageView.swift */; };
 		9EB83F541CE69BB000F4312A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB83F531CE69BB000F4312A /* AppDelegate.swift */; };
 		9EB83F561CE69BB000F4312A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB83F551CE69BB000F4312A /* Assets.xcassets */; };
 		9EB83F591CE69BB000F4312A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB83F571CE69BB000F4312A /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E98F50F1CE69CD000792C07 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		9E98F5101CE69CD000792C07 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		9E98F5131CE69D8800792C07 /* TiledImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiledImageView.swift; sourceTree = "<group>"; };
 		9EB83F501CE69BB000F4312A /* ImageTiling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageTiling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB83F531CE69BB000F4312A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EB83F551CE69BB000F4312A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +60,9 @@
 				9EB83F551CE69BB000F4312A /* Assets.xcassets */,
 				9EB83F571CE69BB000F4312A /* MainMenu.xib */,
 				9EB83F5A1CE69BB000F4312A /* Info.plist */,
+				9E98F50F1CE69CD000792C07 /* MainWindowController.swift */,
+				9E98F5131CE69D8800792C07 /* TiledImageView.swift */,
+				9E98F5101CE69CD000792C07 /* MainWindowController.xib */,
 			);
 			path = ImageTiling;
 			sourceTree = "<group>";
@@ -117,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EB83F561CE69BB000F4312A /* Assets.xcassets in Resources */,
+				9E98F5121CE69CD000792C07 /* MainWindowController.xib in Resources */,
 				9EB83F591CE69BB000F4312A /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E98F5111CE69CD000792C07 /* MainWindowController.swift in Sources */,
+				9E98F5141CE69D8800792C07 /* TiledImageView.swift in Sources */,
 				9EB83F541CE69BB000F4312A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +283,7 @@
 				9EB83F5F1CE69BB000F4312A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
